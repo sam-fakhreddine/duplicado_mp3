@@ -1,0 +1,17 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "audio-deduplicator"
+version = "0.1.0"
+description = "A tool for finding and moving duplicate MP3 files."
+authors = ["Sam Fakhreddine <sambou@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pymongo = "^3.12.0"
+mutagen = "^1.45.1"
+pydub = "^0.25.1"
+
+[tool.poetry.dev-dependencies]
