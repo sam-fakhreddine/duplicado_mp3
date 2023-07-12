@@ -13,5 +13,6 @@ python = "^3.7"
 pymongo = "^3.12.0"
 mutagen = "^1.45.1"
 pydub = "^0.25.1"
+tqdm = "^4.65.0"
 
 [tool.poetry.dev-dependencies]
